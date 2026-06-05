@@ -2,6 +2,8 @@
 
 Branded live-demo seed of the SOP Portal for Cedar Ridge Dental Studio.
 
+Live demo: https://techsavvy-consulting.github.io/sop-portal-live-demo/
+
 ## Demo Logins
 
 All seeded users use this password:
@@ -26,6 +28,8 @@ npm start
 ```
 
 The portal uses `config.json` locally. On hosted Node services, `PORT` is honored when the platform assigns a port.
+
+The GitHub Pages version uses the root-level static demo files and `static-demo.js` to serve the seeded JSON through browser storage. The Node runtime files remain available under `public/` and `server.js`.
 
 ## Demo Content
 

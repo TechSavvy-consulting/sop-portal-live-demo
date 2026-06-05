@@ -1,0 +1,15 @@
+{
+  "name": "cedar-ridge-sop-portal-demo",
+  "version": "1.0.0",
+  "description": "Cedar Ridge Dental Studio live demo seed for the SOP Portal.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "seed:demo": "node tools/seed-cedar-ridge-demo.js",
+    "smoke": "node tools/smoke-test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}

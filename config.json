@@ -1,0 +1,6 @@
+{
+    "port":  8012,
+    "sessionHours":  8,
+    "supportEmail":  "support@techsavvy.consulting",
+    "formspreeEndpoint":  "https://formspree.io/f/mykojwal"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "gen-cedar-clinical-refresh",
+    "createdAt": "2026-05-26T14:15:00.000Z",
+    "mode": "section",
+    "prompt": "Generate clinical care SOP refresh suggestions for a dental practice.",
+    "summary": "Drafted operatory turnover and medical alert refresh ideas.",
+    "addedSopIds": [
+      "CRD-013",
+      "CRD-016"
+    ],
+    "status": "Imported as draft, reviewed, and approved"
+  },
+  {
+    "id": "gen-cedar-billing-review",
+    "createdAt": "2026-05-18T14:15:00.000Z",
+    "mode": "section",
+    "prompt": "Generate billing office SOPs for insurance verification and patient balances.",
+    "summary": "Created billing SOP drafts and manager review queue.",
+    "addedSopIds": [
+      "CRD-025",
+      "CRD-028"
+    ],
+    "status": "Partially approved"
+  }
+]

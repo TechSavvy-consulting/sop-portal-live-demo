@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cr-open-001",
+    "createdAt": "2026-06-02T16:15:00.000Z",
+    "status": "Open",
+    "sopId": "CRD-006",
+    "sopTitle": "Phone Call Triage and Transfer Standards",
+    "requester": "Camila Brooks",
+    "requesterUsername": "camila",
+    "urgency": "Normal",
+    "stepNumber": "3",
+    "issue": "The voicemail callback target changed after the new phone queue was configured.",
+    "suggestedChange": "Change callback target from two hours to one business hour for urgent treatment calls.",
+    "managerNote": ""
+  },
+  {
+    "id": "cr-approved-002",
+    "createdAt": "2026-05-30T18:15:00.000Z",
+    "status": "Approved",
+    "sopId": "CRD-018",
+    "sopTitle": "Sterilizer Load Logging and Spore Test",
+    "requester": "Jules Nguyen",
+    "requesterUsername": "jules",
+    "urgency": "High",
+    "stepNumber": "5",
+    "issue": "The spore test vendor pickup moved from Wednesday to Thursday.",
+    "suggestedChange": "Update the pickup day and add a reminder to stage the envelope by 2 PM Thursday.",
+    "managerNote": "Approved. Miles will update the SOP before next Thursday."
+  },
+  {
+    "id": "cr-complete-003",
+    "createdAt": "2026-05-24T20:15:00.000Z",
+    "status": "Completed",
+    "sopId": "CRD-025",
+    "sopTitle": "Insurance Verification Before Appointments",
+    "requester": "Nora Patel",
+    "requesterUsername": "nora",
+    "urgency": "Normal",
+    "stepNumber": "2",
+    "issue": "Eligibility screenshots are now stored in the document center, not the old claim note.",
+    "suggestedChange": "Point the verification step to the document center and add a note about checking annual maximums.",
+    "managerNote": "Updated in version 1.2."
+  }
+]

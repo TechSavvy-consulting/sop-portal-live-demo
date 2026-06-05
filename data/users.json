@@ -1,0 +1,118 @@
+[
+  {
+    "username": "admin",
+    "displayName": "Avery Collins",
+    "role": "Admin",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Management"
+    ],
+    "salt": "NteUedPKgKoUCD0bOBwsDg==",
+    "hash": "byC32rGcFfoOs2GXsA/vA83OMXa8sREycRfh9Ws8phI=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "nora",
+    "displayName": "Nora Patel",
+    "role": "Manager",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Management",
+      "Front Desk"
+    ],
+    "salt": "Xp/q3RBxoMogha1yqpcqNw==",
+    "hash": "w4etk3qAuqSBsmkf3ZrMAff1W+VhA4wJMVFctG9n73I=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "miles",
+    "displayName": "Miles Romero",
+    "role": "Editor",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Clinical Team",
+      "Sterilization"
+    ],
+    "salt": "LiK3PjeNUQBbUzFqNmj61Q==",
+    "hash": "pGtbHj4fnPMIULnMGWziw6JXMMHSa28OyQMi02IYgms=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "camila",
+    "displayName": "Camila Brooks",
+    "role": "Staff",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Front Desk",
+      "Billing"
+    ],
+    "salt": "XGibHLa3AnJxcg4FgZ1XPQ==",
+    "hash": "kjMV6H3FPHitFjkXrRd5xMPWyHNwB8HxqegquMEbkjg=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "jules",
+    "displayName": "Jules Nguyen",
+    "role": "Staff",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Clinical Team",
+      "Sterilization"
+    ],
+    "salt": "YuEynbky5m8G67bcug6ifQ==",
+    "hash": "D6QUdxC8cydzVoyxvjWVLDiAhl4QMkuxS+He3ne47kQ=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "tessa",
+    "displayName": "Tessa Grant",
+    "role": "Staff",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Hygiene Team",
+      "Clinical Team"
+    ],
+    "salt": "/TYPMcxvqZgWOkA8fQtXGA==",
+    "hash": "glKAAk5j5rPrEoj/n5FyyJzjTY92PYampBsputA/KLs=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "eli",
+    "displayName": "Eli Warren",
+    "role": "Viewer",
+    "active": true,
+    "sopRoles": [
+      "All Staff",
+      "Management"
+    ],
+    "salt": "Emweyw1InZhUNrxYJsCSpA==",
+    "hash": "e5MGtTENzLrJ6azxm/OXVNJP8CwPeZ8kcOo1DVO9it4=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  },
+  {
+    "username": "temp",
+    "displayName": "Temp Coverage",
+    "role": "Staff",
+    "active": false,
+    "sopRoles": [
+      "All Staff"
+    ],
+    "salt": "idELy2TlRgJoZQy8GXCALg==",
+    "hash": "hUrELfEIV46Ew6svuTxo30mc6K69cvhJ/XhtTLyQ6Qo=",
+    "iterations": 120000,
+    "algorithm": "pbkdf2-sha256"
+  }
+]

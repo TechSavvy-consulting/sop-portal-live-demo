@@ -1,0 +1,605 @@
+[
+  {
+    "id": "run-001",
+    "sopId": "CRD-001",
+    "sopTitle": "Daily Office Opening Checklist",
+    "createdAt": "2026-06-05T12:15:00.000Z",
+    "completedAt": "",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-002",
+    "sopId": "CRD-002",
+    "sopTitle": "End of Day Closing and Alarm Set",
+    "createdAt": "2026-06-04T13:15:00.000Z",
+    "completedAt": "2026-06-04T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-003",
+    "sopId": "CRD-003",
+    "sopTitle": "Morning Huddle Preparation",
+    "createdAt": "2026-06-03T14:15:00.000Z",
+    "completedAt": "2026-06-03T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-004",
+    "sopId": "CRD-005",
+    "sopTitle": "New Patient Welcome and Check-In",
+    "createdAt": "2026-06-02T15:15:00.000Z",
+    "completedAt": "2026-06-02T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-005",
+    "sopId": "CRD-006",
+    "sopTitle": "Phone Call Triage and Transfer Standards",
+    "createdAt": "2026-06-01T16:15:00.000Z",
+    "completedAt": "2026-06-01T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-006",
+    "sopId": "CRD-007",
+    "sopTitle": "Same-Day Emergency Patient Intake",
+    "createdAt": "2026-05-31T17:15:00.000Z",
+    "completedAt": "",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-007",
+    "sopId": "CRD-009",
+    "sopTitle": "Recall Scheduling and Hygiene Recare",
+    "createdAt": "2026-05-30T18:15:00.000Z",
+    "completedAt": "2026-05-30T13:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-008",
+    "sopId": "CRD-010",
+    "sopTitle": "Cancellation Waitlist Fill Procedure",
+    "createdAt": "2026-05-29T12:15:00.000Z",
+    "completedAt": "2026-05-29T14:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-009",
+    "sopId": "CRD-011",
+    "sopTitle": "Provider Schedule Template Changes",
+    "createdAt": "2026-05-28T13:15:00.000Z",
+    "completedAt": "2026-05-28T15:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-010",
+    "sopId": "CRD-013",
+    "sopTitle": "Operatory Turnover Between Patients",
+    "createdAt": "2026-05-27T14:15:00.000Z",
+    "completedAt": "2026-05-27T16:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-011",
+    "sopId": "CRD-014",
+    "sopTitle": "Chairside Setup for Composite Restorations",
+    "createdAt": "2026-05-26T15:15:00.000Z",
+    "completedAt": "",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-012",
+    "sopId": "CRD-015",
+    "sopTitle": "Hygiene Room Periodontal Charting Workflow",
+    "createdAt": "2026-05-25T16:15:00.000Z",
+    "completedAt": "2026-05-25T18:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-013",
+    "sopId": "CRD-016",
+    "sopTitle": "Medical History Alert Escalation",
+    "createdAt": "2026-05-24T17:15:00.000Z",
+    "completedAt": "2026-05-24T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-014",
+    "sopId": "CRD-017",
+    "sopTitle": "Instrument Intake and Dirty Zone Handling",
+    "createdAt": "2026-05-23T18:15:00.000Z",
+    "completedAt": "2026-05-23T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-015",
+    "sopId": "CRD-018",
+    "sopTitle": "Sterilizer Load Logging and Spore Test",
+    "createdAt": "2026-05-22T12:15:00.000Z",
+    "completedAt": "2026-05-22T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-016",
+    "sopId": "CRD-019",
+    "sopTitle": "PPE Restock and Infection Control Station Check",
+    "createdAt": "2026-05-21T13:15:00.000Z",
+    "completedAt": "",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-017",
+    "sopId": "CRD-021",
+    "sopTitle": "Clinical Note Lock and Provider Sign-Off",
+    "createdAt": "2026-05-20T14:15:00.000Z",
+    "completedAt": "2026-05-20T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-018",
+    "sopId": "CRD-022",
+    "sopTitle": "X-Ray Capture and Retake Documentation",
+    "createdAt": "2026-05-19T15:15:00.000Z",
+    "completedAt": "2026-05-19T18:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-019",
+    "sopId": "CRD-023",
+    "sopTitle": "HIPAA Record Release Request",
+    "createdAt": "2026-06-05T16:15:00.000Z",
+    "completedAt": "2026-06-05T13:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-020",
+    "sopId": "CRD-025",
+    "sopTitle": "Insurance Verification Before Appointments",
+    "createdAt": "2026-06-04T17:15:00.000Z",
+    "completedAt": "2026-06-04T14:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-021",
+    "sopId": "CRD-026",
+    "sopTitle": "Claim Submission and Attachment Review",
+    "createdAt": "2026-06-03T18:15:00.000Z",
+    "completedAt": "",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-022",
+    "sopId": "CRD-027",
+    "sopTitle": "Patient Payment Posting and Receipt",
+    "createdAt": "2026-06-02T12:15:00.000Z",
+    "completedAt": "2026-06-02T16:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-023",
+    "sopId": "CRD-029",
+    "sopTitle": "Weekly Dental Supply Inventory Count",
+    "createdAt": "2026-06-01T13:15:00.000Z",
+    "completedAt": "2026-06-01T17:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-024",
+    "sopId": "CRD-030",
+    "sopTitle": "Lab Case Shipping and Receiving",
+    "createdAt": "2026-05-31T14:15:00.000Z",
+    "completedAt": "2026-05-31T18:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-025",
+    "sopId": "CRD-031",
+    "sopTitle": "Implant Component Special Order",
+    "createdAt": "2026-05-30T15:15:00.000Z",
+    "completedAt": "2026-05-30T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-026",
+    "sopId": "CRD-033",
+    "sopTitle": "Appointment Reminder Text Review",
+    "createdAt": "2026-05-29T16:15:00.000Z",
+    "completedAt": "",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-027",
+    "sopId": "CRD-034",
+    "sopTitle": "Post-Op Follow-Up Call",
+    "createdAt": "2026-05-28T17:15:00.000Z",
+    "completedAt": "2026-05-28T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-028",
+    "sopId": "CRD-036",
+    "sopTitle": "Referral Thank-You Workflow",
+    "createdAt": "2026-05-27T18:15:00.000Z",
+    "completedAt": "2026-05-27T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-029",
+    "sopId": "CRD-037",
+    "sopTitle": "New Hire SOP Portal Onboarding",
+    "createdAt": "2026-05-26T12:15:00.000Z",
+    "completedAt": "2026-05-26T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-030",
+    "sopId": "CRD-001",
+    "sopTitle": "Daily Office Opening Checklist",
+    "createdAt": "2026-05-25T13:15:00.000Z",
+    "completedAt": "2026-05-25T18:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  },
+  {
+    "id": "run-031",
+    "sopId": "CRD-002",
+    "sopTitle": "End of Day Closing and Alarm Set",
+    "createdAt": "2026-05-24T14:15:00.000Z",
+    "completedAt": "",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "notes": "Paused for provider question; will finish after huddle.",
+    "completed": false
+  },
+  {
+    "id": "run-032",
+    "sopId": "CRD-003",
+    "sopTitle": "Morning Huddle Preparation",
+    "createdAt": "2026-05-23T15:15:00.000Z",
+    "completedAt": "2026-05-23T14:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "notes": "Completed during normal shift flow.",
+    "completed": true
+  }
+]

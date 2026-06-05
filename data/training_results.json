@@ -1,0 +1,710 @@
+[
+  {
+    "id": "train-001",
+    "sopId": "CRD-001",
+    "sopTitle": "Daily Office Opening Checklist",
+    "createdAt": "2026-06-05T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-002",
+    "sopId": "CRD-002",
+    "sopTitle": "End of Day Closing and Alarm Set",
+    "createdAt": "2026-06-04T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-003",
+    "sopId": "CRD-003",
+    "sopTitle": "Morning Huddle Preparation",
+    "createdAt": "2026-06-03T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-004",
+    "sopId": "CRD-005",
+    "sopTitle": "New Patient Welcome and Check-In",
+    "createdAt": "2026-06-02T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-005",
+    "sopId": "CRD-006",
+    "sopTitle": "Phone Call Triage and Transfer Standards",
+    "createdAt": "2026-06-01T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-006",
+    "sopId": "CRD-007",
+    "sopTitle": "Same-Day Emergency Patient Intake",
+    "createdAt": "2026-05-31T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-007",
+    "sopId": "CRD-009",
+    "sopTitle": "Recall Scheduling and Hygiene Recare",
+    "createdAt": "2026-05-30T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-008",
+    "sopId": "CRD-010",
+    "sopTitle": "Cancellation Waitlist Fill Procedure",
+    "createdAt": "2026-05-29T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [
+      "Camila Brooks",
+      "Leave a sticky note for tomorrow.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 67,
+    "correct": 2,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-009",
+    "sopId": "CRD-011",
+    "sopTitle": "Provider Schedule Template Changes",
+    "createdAt": "2026-05-28T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [
+      "Camila Brooks",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-010",
+    "sopId": "CRD-013",
+    "sopTitle": "Operatory Turnover Between Patients",
+    "createdAt": "2026-05-27T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-011",
+    "sopId": "CRD-014",
+    "sopTitle": "Chairside Setup for Composite Restorations",
+    "createdAt": "2026-05-26T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [
+      "Miles Romero",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-012",
+    "sopId": "CRD-015",
+    "sopTitle": "Hygiene Room Periodontal Charting Workflow",
+    "createdAt": "2026-05-25T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [
+      "Miles Romero",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-013",
+    "sopId": "CRD-016",
+    "sopTitle": "Medical History Alert Escalation",
+    "createdAt": "2026-05-24T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-014",
+    "sopId": "CRD-017",
+    "sopTitle": "Instrument Intake and Dirty Zone Handling",
+    "createdAt": "2026-05-23T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Jules Nguyen",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-015",
+    "sopId": "CRD-018",
+    "sopTitle": "Sterilizer Load Logging and Spore Test",
+    "createdAt": "2026-05-22T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [
+      "Jules Nguyen",
+      "Leave a sticky note for tomorrow.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 67,
+    "correct": 2,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-016",
+    "sopId": "CRD-019",
+    "sopTitle": "PPE Restock and Infection Control Station Check",
+    "createdAt": "2026-05-21T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-017",
+    "sopId": "CRD-021",
+    "sopTitle": "Clinical Note Lock and Provider Sign-Off",
+    "createdAt": "2026-05-20T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-018",
+    "sopId": "CRD-022",
+    "sopTitle": "X-Ray Capture and Retake Documentation",
+    "createdAt": "2026-05-19T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-019",
+    "sopId": "CRD-023",
+    "sopTitle": "HIPAA Record Release Request",
+    "createdAt": "2026-05-18T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-020",
+    "sopId": "CRD-025",
+    "sopTitle": "Insurance Verification Before Appointments",
+    "createdAt": "2026-05-17T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-021",
+    "sopId": "CRD-026",
+    "sopTitle": "Claim Submission and Attachment Review",
+    "createdAt": "2026-05-16T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-022",
+    "sopId": "CRD-027",
+    "sopTitle": "Patient Payment Posting and Receipt",
+    "createdAt": "2026-05-15T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-023",
+    "sopId": "CRD-029",
+    "sopTitle": "Weekly Dental Supply Inventory Count",
+    "createdAt": "2026-05-14T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-024",
+    "sopId": "CRD-030",
+    "sopTitle": "Lab Case Shipping and Receiving",
+    "createdAt": "2026-05-13T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-025",
+    "sopId": "CRD-031",
+    "sopTitle": "Implant Component Special Order",
+    "createdAt": "2026-06-05T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-026",
+    "sopId": "CRD-033",
+    "sopTitle": "Appointment Reminder Text Review",
+    "createdAt": "2026-06-04T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-027",
+    "sopId": "CRD-034",
+    "sopTitle": "Post-Op Follow-Up Call",
+    "createdAt": "2026-06-03T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-028",
+    "sopId": "CRD-036",
+    "sopTitle": "Referral Thank-You Workflow",
+    "createdAt": "2026-06-02T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-029",
+    "sopId": "CRD-037",
+    "sopTitle": "New Hire SOP Portal Onboarding",
+    "createdAt": "2026-06-01T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-030",
+    "sopId": "CRD-001",
+    "sopTitle": "Daily Office Opening Checklist",
+    "createdAt": "2026-05-31T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-031",
+    "sopId": "CRD-002",
+    "sopTitle": "End of Day Closing and Alarm Set",
+    "createdAt": "2026-05-30T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-032",
+    "sopId": "CRD-003",
+    "sopTitle": "Morning Huddle Preparation",
+    "createdAt": "2026-05-29T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-033",
+    "sopId": "CRD-005",
+    "sopTitle": "New Patient Welcome and Check-In",
+    "createdAt": "2026-05-28T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-034",
+    "sopId": "CRD-006",
+    "sopTitle": "Phone Call Triage and Transfer Standards",
+    "createdAt": "2026-05-27T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-035",
+    "sopId": "CRD-007",
+    "sopTitle": "Same-Day Emergency Patient Intake",
+    "createdAt": "2026-05-26T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [
+      "Nora Patel",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-036",
+    "sopId": "CRD-009",
+    "sopTitle": "Recall Scheduling and Hygiene Recare",
+    "createdAt": "2026-05-25T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [
+      "Camila Brooks",
+      "Leave a sticky note for tomorrow.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 67,
+    "correct": 2,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-037",
+    "sopId": "CRD-010",
+    "sopTitle": "Cancellation Waitlist Fill Procedure",
+    "createdAt": "2026-05-24T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-038",
+    "sopId": "CRD-011",
+    "sopTitle": "Provider Schedule Template Changes",
+    "createdAt": "2026-05-23T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Camila Brooks",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-039",
+    "sopId": "CRD-013",
+    "sopTitle": "Operatory Turnover Between Patients",
+    "createdAt": "2026-05-22T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [
+      "Miles Romero",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-040",
+    "sopId": "CRD-014",
+    "sopTitle": "Chairside Setup for Composite Restorations",
+    "createdAt": "2026-05-21T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-041",
+    "sopId": "CRD-015",
+    "sopTitle": "Hygiene Room Periodontal Charting Workflow",
+    "createdAt": "2026-05-20T10:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [
+      "Miles Romero",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-042",
+    "sopId": "CRD-016",
+    "sopTitle": "Medical History Alert Escalation",
+    "createdAt": "2026-05-19T11:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [
+      "Miles Romero",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-043",
+    "sopId": "CRD-017",
+    "sopTitle": "Instrument Intake and Dirty Zone Handling",
+    "createdAt": "2026-05-18T12:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-044",
+    "sopId": "CRD-018",
+    "sopTitle": "Sterilizer Load Logging and Spore Test",
+    "createdAt": "2026-05-17T13:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [
+      "Jules Nguyen",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-045",
+    "sopId": "CRD-019",
+    "sopTitle": "PPE Restock and Infection Control Station Check",
+    "createdAt": "2026-05-16T14:15:00.000Z",
+    "userKey": "jules",
+    "userName": "Jules Nguyen",
+    "answers": [
+      "Jules Nguyen",
+      "Escalate to the named owner before the end of the current shift.",
+      "In the SOP Portal checklist or read confirmation."
+    ],
+    "score": 100,
+    "correct": 3,
+    "total": 3,
+    "confirmed": true
+  },
+  {
+    "id": "train-046",
+    "sopId": "CRD-021",
+    "sopTitle": "Clinical Note Lock and Provider Sign-Off",
+    "createdAt": "2026-05-15T15:15:00.000Z",
+    "userKey": "tessa",
+    "userName": "Tessa Grant",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-047",
+    "sopId": "CRD-022",
+    "sopTitle": "X-Ray Capture and Retake Documentation",
+    "createdAt": "2026-05-14T16:15:00.000Z",
+    "userKey": "nora",
+    "userName": "Nora Patel",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  },
+  {
+    "id": "train-048",
+    "sopId": "CRD-023",
+    "sopTitle": "HIPAA Record Release Request",
+    "createdAt": "2026-05-13T17:15:00.000Z",
+    "userKey": "camila",
+    "userName": "Camila Brooks",
+    "answers": [],
+    "score": 100,
+    "correct": 0,
+    "total": 0,
+    "confirmed": true
+  }
+]

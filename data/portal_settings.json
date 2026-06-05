@@ -1,0 +1,15 @@
+{
+  "staffLoginRequired": true,
+  "mobileBaseUrl": "",
+  "publicPortalRole": "Staff",
+  "securityOptions": {
+    "rateLimitingEnabled": true,
+    "loginAttempts": 10,
+    "loginWindowMinutes": 15,
+    "supportRequests": 8,
+    "supportWindowMinutes": 60,
+    "changeRequests": 12,
+    "changeWindowMinutes": 60
+  },
+  "qrCodeApiUrl": "https://api.qrserver.com/v1/create-qr-code/?size=260x260&data={DATA}"
+}

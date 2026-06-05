@@ -1,0 +1,16 @@
+{
+  "defaultColors": {
+    "primaryColor": "#1f7a65",
+    "accentColor": "#f0b84a",
+    "darkColor": "#12352f",
+    "lightColor": "#f4fbf8",
+    "activeSectionHighlightColor": "#f0b84a"
+  },
+  "previousColors": {
+    "primaryColor": "#1934b8",
+    "accentColor": "#15a394",
+    "darkColor": "#07151a",
+    "lightColor": "#f6fbfb"
+  },
+  "updatedAt": "2026-06-05T15:09:18.272Z"
+}

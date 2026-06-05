@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SOP Portal Help</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="extensions.css">
+  <style>
+    .help-back{text-align:right;margin:18px 0 0}
+    .help-back a{font-weight:950;color:color-mix(in srgb,var(--primary) 60%,black)}
+    .back-top-floating{position:fixed;right:18px;bottom:18px;z-index:35;background:#fff;border:1px solid var(--line);border-radius:999px;padding:10px 13px;font-size:14px;font-weight:950;color:color-mix(in srgb,var(--primary) 60%,black);box-shadow:var(--shadow)}
+    .back-top-floating:hover{border-color:var(--primary)}
+    .feature-list li,.help-card ol li{margin:9px 0;line-height:1.5}
+    #login{order:1}#staff{order:2}#sop{order:3}#checklists{order:4}#change{order:5}#support{order:6}#dashboard{order:7}#editor{order:8}#bulk{order:9}#sections{order:10}#training-admin{order:11}#generator{order:12}#import{order:13}#requests{order:14}#support-admin{order:15}#users{order:16}#roles{order:17}#brand{order:18}#backup{order:19}#advanced{order:20}#about{order:21}
+    @media(max-width:700px){.back-top-floating{right:12px;bottom:12px;padding:9px 11px;font-size:13px}}
+  </style>
+</head>
+<body data-page="help">
+<a id="top"></a>
+<a class="back-top-floating" href="#top">Back to top</a>
+<div class="help-layout">
+  <section class="hero">
+    <div class="eyebrow" id="helpBrandLabel">SOP Portal Help</div>
+    <h1>How to use the SOP Portal</h1>
+    <p class="small">Use this guide to find SOPs, pin favorites, run checklists, complete training, suggest changes, and manage admin tools for SOP editing, sections, training reports, imports, users, branding, backups, and diagnostics.</p>
+    <div class="toolbar">
+      <a class="btn primary" href="index.html">Back to SOP Portal</a>
+      <a class="btn secondary" href="admin.html">Admin Portal</a>
+      <a class="btn secondary" href="support.html">Request Support</a>
+    </div>
+  </section>
+
+  <nav class="help-nav" aria-label="Help sections">
+    <a href="#login">Sign in</a>
+    <a href="#staff">Staff portal</a>
+    <a href="#sop">SOP actions</a>
+    <a href="#checklists">Checklists/training</a>
+    <a href="#change">Suggest changes</a>
+    <a href="#support">Support</a>
+    <a href="#dashboard">Dashboard</a>
+    <a href="#editor">Edit SOPs</a>
+    <a href="#bulk">Bulk/duplicate</a>
+    <a href="#sections">Sections</a>
+    <a href="#training-admin">Training reports</a>
+    <a href="#generator">Generate</a>
+    <a href="#import">Import/dedupe</a>
+    <a href="#requests">Change requests</a>
+    <a href="#support-admin">Support requests</a>
+    <a href="#users">Users/security</a>
+    <a href="#roles">SOP assignment roles</a>
+    <a href="#brand">Brand</a>
+    <a href="#backup">Backup/restore</a>
+    <a href="#advanced">Advanced checks</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section id="login" class="help-card">
+    <h2>1. Sign in</h2>
+    <p>The login screen appears when staff portal login is enabled. Admin access always requires login.</p>
+    <ol>
+      <li><b>Open the portal link.</b> Use the local or network address provided by your manager, administrator, or support provider.</li>
+      <li><b>Enter your username.</b> Use the account name assigned in Users / Logins. Usernames are usually lowercase.</li>
+      <li><b>Enter your password.</b> Passwords are case-sensitive. If you received a temporary password, sign in with it exactly as provided.</li>
+      <li><b>Select Log in.</b> A successful staff login opens the staff portal. Admin, Manager, and Editor users can open the Admin Portal after signing in.</li>
+      <li><b>Use Login / Admin when staff login is off.</b> If the staff portal is public, Admin Portal access still requires a login from the sidebar.</li>
+      <li><b>Know public access mode.</b> When staff login is off, Admins choose whether public staff portal visitors act as Staff or Viewer from Users / Logins.</li>
+      <li><b>Request help when needed.</b> If login fails or the account is locked, use <b>Need portal support?</b> and include the username and the page where the issue occurred.</li>
+    </ol>
+    <img src="/generated-help-screenshots/01-login.png" alt="SOP Portal login screen">
+    <div class="callout warning"><b>Security note:</b> Use your own assigned login when user tracking matters. Do not send passwords, payment data, private records, regulated information, or sensitive customer details through support.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="staff" class="help-card">
+    <h2>2. Find SOPs in the staff portal</h2>
+    <p>The staff portal shows approved SOPs only. Drafts, pending reviews, rejected SOPs, and archived SOPs stay hidden from normal staff view.</p>
+    <ol>
+      <li><b>Browse by section.</b> Section buttons in the sidebar group SOPs by workflow area and show the number of approved SOPs inside each section.</li>
+      <li><b>Use My SOPs.</b> This filters the list to SOPs assigned to one of your SOP assignment roles.</li>
+      <li><b>Use Pinned SOPs.</b> This shows SOPs you pinned for frequent work, recurring tasks, or quick reference.</li>
+      <li><b>Search broadly.</b> Search checks approved SOP titles, IDs, section names, roles, tags, and words inside SOP content and steps.</li>
+      <li><b>Open mobile navigation when needed.</b> On narrow screens, use <b>Show Search and Sections</b> to reveal search, section filters, My SOPs, and Pinned SOPs.</li>
+      <li><b>Select an SOP.</b> Click a result in the SOP list to open the full procedure on the right.</li>
+      <li><b>Clear filters when needed.</b> If an SOP is missing, switch back to All SOPs and clear the search box before assuming the SOP is unavailable.</li>
+    </ol>
+    <img src="/generated-help-screenshots/02-staff-overview.png" alt="Staff portal overview with My SOPs and Pinned SOPs">
+    <div class="callout"><b>Search note:</b> Typing a keyword searches all approved SOPs, not only the selected section.</div>
+    <div class="callout"><b>Assignment note:</b> My SOPs is a convenience filter. SOP assignment roles do not restrict direct SOP, PDF, or attachment access for logged-in staff. If an SOP is missing from My SOPs, ask an Admin or Manager to review the SOP assignment role and your user assignment roles.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="sop" class="help-card">
+    <h2>3. Read and use an SOP</h2>
+    <p>Every SOP uses the same structure so staff can scan quickly and complete work consistently.</p>
+    <ol>
+      <li><b>Read the header fields first.</b> Purpose explains why the SOP exists, Scope explains when it applies, and Prerequisites list what should be ready before starting.</li>
+      <li><b>Follow the numbered Steps.</b> Work through the steps in order unless Notes / Exceptions clearly explain a different path.</li>
+      <li><b>Use Validation before closing the task.</b> Validation describes what complete, correct, or ready-for-review work should look like.</li>
+      <li><b>Check Notes / Exceptions.</b> This area is where unusual cases, escalation rules, do-not-do items, or manager-review requirements should be listed.</li>
+      <li><b>Use Export PDF when a copy is needed.</b> Export PDF creates a printable or downloadable version of the selected SOP.</li>
+      <li><b>Open Pictures and Files carefully.</b> Attachments can include images, PDFs, Office files, CSV files, or text references that support the SOP.</li>
+    </ol>
+    <img src="/generated-help-screenshots/03-sop-detail.png" alt="SOP detail page">
+    <img src="/generated-help-screenshots/03-sop-attachments.png" alt="SOP Pictures and Files attachments with download buttons">
+    <div class="callout warning"><b>Role boundary:</b> Do not make commitments, exceptions, approvals, customer-impacting decisions, or regulated decisions unless your role specifically allows it. Escalate anything outside your assigned authority.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="checklists" class="help-card">
+    <h2>4. Pin, share, run, and train from an SOP</h2>
+    <p>Quick actions appear inside the open SOP for common staff workflows.</p>
+    <ol>
+      <li><b>Pin the SOP.</b> Select <b>Pin SOP</b> to add the current SOP to your Pinned SOPs list for faster access later.</li>
+      <li><b>Copy a direct link.</b> Select <b>Copy Link</b> when you need to paste a link into a message, ticket, task, or internal note.</li>
+      <li><b>Use the QR Code button.</b> Select <b>QR Code</b> to show a scannable link. QR codes use the Mobile / QR Base URL from Brand / Settings when it is configured.</li>
+      <li><b>Run a checklist.</b> Select <b>Run Checklist</b> to open a task instance based on the SOP steps, then check off steps as work is completed.</li>
+      <li><b>Record read acknowledgement.</b> Select <b>Confirm Read</b> when you reviewed the SOP and need to record that acknowledgement.</li>
+      <li><b>Take a quiz when available.</b> Select <b>Take Training Quiz</b> to answer saved multiple-choice questions for the SOP.</li>
+      <li><b>Handle missing quizzes.</b> If no quiz has been built yet, the quiz button stays visible and explains that an admin or manager can add questions from Training / Runs.</li>
+      <li><b>Understand no-login tracking.</b> If staff login is off, checklist and training completions use the typed staff name when one is entered, otherwise the record shows Public Staff.</li>
+    </ol>
+    <img src="/generated-help-screenshots/14-staff-qr-link.png" alt="SOP QR code and quick link tools">
+    <img src="/generated-help-screenshots/20-staff-no-quiz.png" alt="Training quiz unavailable message when no quiz is saved">
+    <img src="/generated-help-screenshots/15-staff-checklist-run.png" alt="Checklist run mode for SOP steps">
+    <div class="callout"><b>Tracking note:</b> When logged in, completions are tied to the username. When staff login is off, completions use the typed staff name when entered, otherwise the record shows Public Staff.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="change" class="help-card">
+    <h2>5. Suggest an SOP change</h2>
+    <p>Suggest a change when an SOP is outdated, unclear, missing information, or needs better wording.</p>
+    <ol>
+      <li><b>Open the exact SOP.</b> Start from the SOP that contains the outdated or unclear information so the request is tied to the right record.</li>
+      <li><b>Select Suggest a Change.</b> This opens a request form without editing the SOP directly.</li>
+      <li><b>Confirm your name.</b> Logged-in users are usually filled in automatically. If not, type the name staff should use for follow-up.</li>
+      <li><b>Choose urgency.</b> Use urgency to help managers triage the request. Add a step number when the issue applies to a specific step.</li>
+      <li><b>Describe the issue clearly.</b> Explain what is wrong, missing, outdated, confusing, or not matching current workflow.</li>
+      <li><b>Add suggested wording when helpful.</b> Suggested wording is optional, but it can speed up the manager review.</li>
+      <li><b>Submit the request.</b> The request appears under Change Requests in the Admin Portal for review.</li>
+    </ol>
+    <img src="/generated-help-screenshots/04-change-request.png" alt="SOP change request form">
+    <div class="callout warning"><b>Urgent issue:</b> For safety, privacy, complaint, refund, account-impacting, or customer-impacting concerns, notify the manager immediately and then submit the change request.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="support" class="help-card">
+    <h2>6. Request portal support</h2>
+    <p>Use the support form for portal technical issues such as login trouble, PDF export problems, portal errors, upload issues, user/account questions, or requested portal changes.</p>
+    <ol>
+      <li><b>Open the support form.</b> Use <b>Request Support</b>, <b>Need portal support?</b>, or the support link shown in the portal.</li>
+      <li><b>Enter contact details.</b> Add your name and email so support can follow up if more detail is needed.</li>
+      <li><b>Choose urgency.</b> Pick the urgency that best matches the impact to staff, customers, or portal administration.</li>
+      <li><b>Identify the page or area.</b> Mention the page, tab, button, or workflow where the issue happened.</li>
+      <li><b>Describe what happened.</b> Include what you clicked, what you expected, what happened, any error message, and who is affected.</li>
+      <li><b>Submit the request.</b> The request is stored locally in the Admin Portal under Support Requests.</li>
+    </ol>
+    <img src="/generated-help-screenshots/09-support-form.png" alt="Support request form">
+    <div class="callout warning"><b>Do not submit sensitive data:</b> no passwords, payment details, regulated records, private customer records, confidential files, or other sensitive information.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="dashboard" class="help-card">
+    <h2>7. Use the admin dashboard</h2>
+    <p>The dashboard gives Managers and Admins a quick health check of the portal.</p>
+    <ol>
+      <li><b>Open Admin Portal.</b> Use the Admin Portal button after signing in with an account that has admin portal access.</li>
+      <li><b>Review the summary boxes.</b> Check SOP totals, approved count, pending reviews, drafts, overdue reviews, open change requests, staff login status, and user count.</li>
+      <li><b>Use dashboard shortcuts.</b> Select a dashboard box to jump to SOP Editor, Users / Logins, or a filtered Action Needed view.</li>
+      <li><b>Review Action Needed.</b> Use this list to find Draft, Pending Review, Rejected, overdue, due-soon SOPs, or open change requests.</li>
+      <li><b>Resolve issues in the correct tab.</b> Dashboard items are shortcuts; actual edits still happen in SOP Editor, Users / Logins, Change Requests, or the relevant admin tab.</li>
+    </ol>
+    <img src="/generated-help-screenshots/05-admin-dashboard.png" alt="Admin dashboard">
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="editor" class="help-card">
+    <h2>8. Edit SOPs</h2>
+    <p>The SOP Editor is used to create, duplicate, edit, save, submit, approve, reject, archive, export, and roll back SOPs.</p>
+    <ol>
+      <li><b>Find the SOP.</b> Use search, section filter, and status filter to narrow the left-side SOP list before editing.</li>
+      <li><b>Select the SOP.</b> Click the SOP in the list so its fields load into the editor form on the right.</li>
+      <li><b>Edit normal fields first.</b> Use the visible form fields for ID, Status, Section, Version, Title, Purpose, Scope, Prerequisites, Steps, Validation, Notes / Exceptions, Owner, SOP Assignment Roles, dates, Tags, and Version Summary.</li>
+      <li><b>Assign roles for filtering.</b> Use <b>SOP Assignment Roles</b> to control Staff Portal My SOPs filtering only. It does not block direct SOP, PDF, or attachment access for logged-in users.</li>
+      <li><b>Enter one step per line.</b> Each line in <b>Steps</b> becomes a numbered staff step and a checklist item.</li>
+      <li><b>Review quiz status.</b> The Training Quiz box shows whether the selected SOP has saved quiz questions.</li>
+      <li><b>Build or edit quiz questions.</b> Select <b>Build Quiz</b> or <b>Edit Quiz</b> from the Training Quiz box to open Training / Runs for that SOP.</li>
+      <li><b>Choose the workflow action.</b> Use <b>Save</b>, <b>Submit for Review</b>, <b>Approve</b>, <b>Reject</b>, <b>Archive</b>, or <b>Save All Changes</b> based on the SOP state.</li>
+      <li><b>Know what Save does.</b> <b>Save</b> and <b>Submit for Review</b> save current form values first, including Section, before creating or submitting a draft.</li>
+      <li><b>Handle save conflicts.</b> If another admin changes SOP data after your page loaded, the portal blocks your save and asks you to reload before saving again. Reload, review the live data, then reapply your edits if needed.</li>
+      <li><b>Use Archive intentionally.</b> Archived SOPs leave normal staff view but remain available in the admin SOP list when the status filter includes Archived.</li>
+      <li><b>Attach supporting files.</b> Use <b>Pictures and Files</b> to attach approved images, PDFs, Office files, CSV, or text files.</li>
+      <li><b>Use version history.</b> <b>Save All Changes</b> creates a Version History entry for every changed SOP, and <b>Version History / Rollback</b> can restore a previous version.</li>
+    </ol>
+    <img src="/generated-help-screenshots/06-sop-editor-top.png" alt="SOP editor top section">
+    <img src="/generated-help-screenshots/06-sop-editor-middle.png" alt="SOP editor owner roles and review fields">
+    <img src="/generated-help-screenshots/07-sop-editor-bottom.png" alt="SOP editor approvals uploads and rollback">
+    <div class="callout"><b>Quiz status note:</b> An SOP can still be read and confirmed when no quiz is enabled. To add questions, use Build Quiz/Edit Quiz from the SOP Editor or open Training / Runs directly.</div>
+    <div class="callout warning"><b>Attachment note:</b> Do not upload passwords, payment details, regulated records, confidential files, private customer records, or sensitive business information unless the business has explicitly approved the storage method.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="bulk" class="help-card">
+    <h2>9. Duplicate and bulk-update SOPs</h2>
+    <p>The SOP Editor includes faster tools for repeated admin cleanup.</p>
+    <ol>
+      <li><b>Duplicate one SOP.</b> Select the SOP, choose <b>Duplicate</b>, and enter the target section ID when prompted.</li>
+      <li><b>Select multiple SOPs.</b> Use the checkboxes in the SOP list to mark the SOPs that should receive the same change.</li>
+      <li><b>Use Select Visible carefully.</b> <b>Select Visible</b> marks every SOP currently shown by search, section, and status filters.</li>
+      <li><b>Clear accidental selections.</b> Use <b>Clear Selection</b> before applying changes if the selected count is not the group you intended.</li>
+      <li><b>Set bulk fields.</b> In <b>Bulk Actions</b>, choose only the fields you want to change: section, status, owner, or next review date.</li>
+      <li><b>Approve only complete SOPs.</b> Bulk approval is blocked when any selected SOP is missing a title or at least one step.</li>
+      <li><b>Apply the update.</b> Select <b>Apply to Selected SOPs</b>. The portal saves the update and reloads live data after the bulk change.</li>
+      <li><b>Recheck filters.</b> If bulk changes move SOPs to a different section or status, they may leave the current filtered list.</li>
+    </ol>
+    <img src="/generated-help-screenshots/06-sop-editor-top.png" alt="SOP editor with bulk actions">
+    <img src="/generated-help-screenshots/06-sop-editor-bulk-lower.png" alt="SOP editor lower bulk action controls">
+    <div class="callout warning"><b>Bulk edit note:</b> Bulk actions are powerful. Filter carefully and confirm the selected count before applying changes.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="generator" class="help-card">
+    <h2>12. Generate SOP drafts</h2>
+    <p>The SOP Generator builds a prompt for ChatGPT or another AI tool. The portal does not contact AI by itself.</p>
+    <ol>
+      <li><b>Open SOP Generator.</b> Use this tab when you want the portal to build a prompt for an outside AI tool.</li>
+      <li><b>Choose the generation mode.</b> Pick one SOP, a new section with SOPs, or starter portal seed content.</li>
+      <li><b>Fill in context fields.</b> Add business type, website or notes, software stack, audience, risk level, style, and requested SOP needs.</li>
+      <li><b>Build and copy the prompt.</b> Select <b>Build Prompt</b>, review the generated prompt, then select <b>Copy Prompt</b>.</li>
+      <li><b>Use the external AI tool.</b> Paste the prompt into ChatGPT or another approved AI tool, then copy the result back into the portal.</li>
+      <li><b>Clean and preview.</b> Select <b>Clean and Preview</b> so the portal can parse the returned content and show what will be saved.</li>
+      <li><b>Review warnings before saving.</b> Missing fields, unclear source material, duplicate concerns, or parsing issues appear as warnings in the preview and history.</li>
+      <li><b>Save intentionally.</b> Save generated content as Draft for editing or Pending Review when it is ready for manager review.</li>
+      <li><b>Review history.</b> Use <b>Generator History</b> to review the date, summary, copied prompt, pasted result, warnings, and saved SOP IDs for previous generator runs.</li>
+    </ol>
+    <img src="/generated-help-screenshots/06-sop-generator.png" alt="SOP Generator tab">
+    <img src="/generated-help-screenshots/06-sop-generator-lower.png" alt="SOP Generator paste preview save and history fields">
+    <div class="callout warning"><b>Review rule:</b> AI-generated SOPs must be checked by the business before staff use. Do not paste sensitive data into AI tools or generated SOP text.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="import" class="help-card">
+    <h2>13. Import SOPs and handle duplicates</h2>
+    <p>SOP Import converts existing SOP source material into portal-ready drafts using an external AI conversion step.</p>
+    <ol>
+      <li><b>Open SOP Import.</b> Use this tab when existing SOP text needs to become portal-ready draft records.</li>
+      <li><b>Choose the import behavior.</b> Import into one existing section, or allow the import to create or reuse sections from the source material.</li>
+      <li><b>Build and copy the import prompt.</b> The prompt tells the outside AI tool what JSON format the portal expects.</li>
+      <li><b>Convert externally.</b> Use ChatGPT or another approved AI tool to convert the source material to the requested JSON format.</li>
+      <li><b>Paste and preview.</b> Paste the returned JSON into the portal and select <b>Clean and Preview</b>.</li>
+      <li><b>Resolve duplicates.</b> If a duplicate title is detected, choose <b>Add new copy</b>, <b>Skip</b>, or <b>Update existing as draft</b>.</li>
+      <li><b>Save the import.</b> Save as Draft for editing or submit for review when the content is ready for manager review.</li>
+      <li><b>Review import history.</b> Use <b>Import History</b> to review the date, summary, copied import prompt, pasted conversion result, duplicate choices, warnings, and saved SOP IDs for previous imports.</li>
+    </ol>
+    <img src="/generated-help-screenshots/06-sop-import.png" alt="SOP Import tab">
+    <img src="/generated-help-screenshots/06-sop-import-lower.png" alt="SOP Import paste preview save and summary fields">
+    <div class="callout warning"><b>Import rule:</b> Do not upload passwords, payment details, regulated records, confidential files, private customer records, or other sensitive information into AI tools or import text.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="backup" class="help-card">
+    <h2>19. Back up, restore, and export the portal</h2>
+    <p>The Backup & Restore Center is Admin-only and is the recovery hub for this local-folder hosted portal.</p>
+    <ol>
+      <li><b>Open Backup / Restore.</b> This Admin-only tab manages backups, restore actions, retention cleanup, and full portal export packages.</li>
+      <li><b>Review backup status.</b> Check backup counts, total backup size, and the backup history list before deleting or restoring anything.</li>
+      <li><b>Create a complete backup set.</b> Use <b>Complete Backup</b> before resetting a portal, moving data into a blank template, or doing major setup work. This creates matched backup files and a manifest for every restore data area.</li>
+      <li><b>Download a portal ZIP when files are needed.</b> Use <b>Download Portal ZIP</b> to export a portable package containing data, public files, tools, docs, config, server, and start script.</li>
+      <li><b>Choose whether to include attachments.</b> Leave <b>Include SOP attachments</b> off for smaller exports, or turn it on when uploaded SOP files need to travel with the ZIP.</li>
+      <li><b>Choose a restore target.</b> Restore targets include SOPs, Users, Portal Settings, Brand Color Settings, Support Requests, Change Requests, Generator History, SOP Assignment Roles, Favorites, Checklist Runs, Training Results, Config, or Everything.</li>
+      <li><b>Use full-set restore carefully.</b> Use <b>Everything, latest matching backup set</b> to restore the newest complete backup manifest, especially after using <b>Complete Backup</b>. This avoids mixing unrelated backup times.</li>
+      <li><b>Match backup file to target.</b> Select the matching backup file when restoring one data type. The portal blocks the wrong backup type from being restored into the wrong target.</li>
+      <li><b>Confirm restore.</b> Select <b>Restore Selected</b>, then type <b>RESTORE</b> to confirm. The portal validates the selected backup files, creates safety backups, and rolls back when possible if restore fails before completion.</li>
+      <li><b>Restart after config restore.</b> If Config is restored, restart the portal so the running server matches the restored listener and runtime settings.</li>
+      <li><b>Apply retention.</b> Use <b>Apply 25-Backup Retention</b>, <b>Apply 50-Backup Retention</b>, or <b>Apply 100-Backup Retention</b> to keep the newest backups overall while preserving the newest backup for each file type when possible.</li>
+      <li><b>Clear backup files only when intended.</b> <b>Delete All Backup Files</b> asks you to type <b>CLEAR</b> before removing backup files from the interface and backup folder.</li>
+    </ol>
+    <img src="/generated-help-screenshots/16-backup-restore.png" alt="Backup and restore center">
+    <img src="/generated-help-screenshots/16-backup-retention.png" alt="Backup retention buttons and clear backup confirmation area">
+    <div class="callout warning"><b>Restore warning:</b> Restore creates a safety backup first, then replaces live data. Confirm the target and backup file before typing RESTORE.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="roles" class="help-card">
+    <h2>17. Manage SOP assignment roles</h2>
+    <p>SOP assignment roles now live inside Users / Logins. They filter My SOPs only. Permissions stay fixed as Admin, Manager, Editor, Staff, and Viewer.</p>
+    <ol>
+      <li><b>Open Users / Logins.</b> SOP assignment roles are managed from the same area as user accounts.</li>
+      <li><b>Find SOP Assignment Roles.</b> Scroll below the user list to the role list editor.</li>
+      <li><b>Enter one role per line.</b> Each line becomes an official assignment role option in SOP Editor and Users / Logins.</li>
+      <li><b>Use generic job or workflow names.</b> Examples include All Staff, Front Desk, Operations, Service Team, Sales, Trainer, Billing, or Leadership.</li>
+      <li><b>Save the list.</b> Select <b>Save SOP Assignment Roles</b>, or use the bottom <b>Save All Changes</b> button if you are saving several admin edits together.</li>
+      <li><b>Assign roles to users.</b> Select a user, choose that user's SOP assignment roles, then select <b>Update User</b>.</li>
+      <li><b>Assign roles to SOPs.</b> Return to SOP Editor and select which official roles should see each SOP under My SOPs.</li>
+    </ol>
+    <img src="/generated-help-screenshots/11-users-logins.png" alt="Users and logins with SOP assignment roles">
+    <img src="/generated-help-screenshots/17-sop-assignment-roles.png" alt="SOP assignment role list editor">
+    <div class="callout"><b>Assignment note:</b> SOP assignment roles power My SOPs filtering in the staff portal. User access privileges come from the fixed Permissions field on the account. If you select assignment roles on a user profile, use <b>Update User</b> to save that user.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="training-admin" class="help-card">
+    <h2>11. Review training and checklist runs</h2>
+    <p>The Training / Runs tab is available to Admin Portal roles. It uses existing SOP data to build training questions, previews the checklist that staff will run from SOP steps, and reports checklist runs, read confirmations, and quiz results.</p>
+    <ol>
+      <li><b>Open Training / Runs.</b> Use this tab to build quiz questions and review staff completion records.</li>
+      <li><b>Select the SOP.</b> Choose the SOP you want to train from in the Build training for SOP dropdown.</li>
+      <li><b>Review the source fields.</b> Check owner, assignment role, prerequisites, validation, and checklist preview before generating questions.</li>
+      <li><b>Build from SOP Fields.</b> Use this button to create multiple-choice questions from owner, section, assignment role, first step, and validation.</li>
+      <li><b>Build from Steps.</b> Use this button to create step-order questions from the selected SOP steps.</li>
+      <li><b>Edit each question.</b> Adjust wording, correct answer, and multiple-choice options so the quiz matches the actual SOP.</li>
+      <li><b>Add custom questions.</b> Use <b>Add Question</b> when generated questions do not cover an important point.</li>
+      <li><b>Save the quiz.</b> Select <b>Save Quiz to SOP</b> so staff can take the quiz from the SOP quick actions.</li>
+      <li><b>Confirm quiz status.</b> Return to SOP Editor to confirm the selected SOP now shows <b>Quiz enabled</b> and the saved question count.</li>
+      <li><b>Review completions.</b> Use the reports on the right to review recent checklist runs, read confirmations, and quiz results for the selected SOP.</li>
+    </ol>
+    <img src="/generated-help-screenshots/18-training-runs.png" alt="Training and checklist run reports">
+    <img src="/generated-help-screenshots/18-training-quiz-builder.png" alt="Training quiz builder question fields and save quiz controls">
+    <div class="callout"><b>Completion note:</b> Logged-in users are tracked by username. No-login completions use the typed staff name when one is entered, otherwise Public Staff. Staff take quizzes from the SOP Quick Actions area in the staff portal.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="sections" class="help-card">
+    <h2>10. Manage sections</h2>
+    <p>Sections control the staff portal sidebar and help users browse SOPs by workflow area. Section editing is available to Managers and Admins.</p>
+    <ol>
+      <li><b>Open Sections.</b> Use this tab to manage the workflow groups shown in the staff portal sidebar.</li>
+      <li><b>Select a section.</b> Click a section from the list so its fields load on the right.</li>
+      <li><b>Edit Section ID carefully.</b> Section ID is the internal link between SOPs and the section. Changing it can affect SOP placement.</li>
+      <li><b>Edit Icon, Title, and Description.</b> Title is what staff see in the sidebar. Description explains the section's purpose for admins.</li>
+      <li><b>Move SOPs before deleting.</b> Do not delete a section until SOPs inside it are moved or deleted.</li>
+      <li><b>Save the update.</b> Select <b>Save All Changes</b> after section updates.</li>
+    </ol>
+    <img src="/generated-help-screenshots/08-sections.png" alt="Sections editor">
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="requests" class="help-card">
+    <h2>14. Review change requests</h2>
+    <p>Change Requests show staff feedback and requested SOP updates.</p>
+    <ol>
+      <li><b>Open Change Requests.</b> Use this tab to review staff-submitted SOP feedback.</li>
+      <li><b>Filter the list.</b> Choose All, Open, Approved, Rejected, or Completed to focus the request list.</li>
+      <li><b>Select a request.</b> Click a request to show the full issue, suggested change, status, urgency, requester, and created date.</li>
+      <li><b>Review the details.</b> Read the issue, suggested change, created date, and any manager note before changing status.</li>
+      <li><b>Add a manager note.</b> Use the note field to document the decision, next step, or reason for rejection.</li>
+      <li><b>Open the SOP when needed.</b> Use <b>Open SOP</b> if content needs editing in SOP Editor.</li>
+      <li><b>Complete only after handling.</b> <b>Complete</b> changes the request status only; it does not edit SOP content.</li>
+    </ol>
+    <img src="/generated-help-screenshots/10-change-requests.png" alt="Change request review screen">
+    <div class="callout warning"><b>Workflow note:</b> Updating a change request status does not automatically change SOP content.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="support-admin" class="help-card">
+    <h2>15. Review portal support requests</h2>
+    <p>Support Requests show portal support form submissions saved locally for Admin review.</p>
+    <ol>
+      <li><b>Open Support Requests.</b> Use this tab to see requests submitted through the portal support form.</li>
+      <li><b>Select a request.</b> Click a request in the left list to open the details on the right.</li>
+      <li><b>Review contact details.</b> Check requester, username, email, phone, urgency, page, and message.</li>
+      <li><b>Follow up outside the portal.</b> Use the contact information to respond through the appropriate support process.</li>
+      <li><b>Clear old requests carefully.</b> Select <b>Clear</b> only when all locally saved portal support requests should be removed from the interface.</li>
+      <li><b>Confirm before clearing.</b> The portal asks for confirmation before deleting the local list and creates a backup first.</li>
+    </ol>
+    <img src="/generated-help-screenshots/21-support-requests.png" alt="Admin support requests list and details">
+    <div class="callout warning"><b>Support request note:</b> Support request records may contain operational details. Review them before clearing, and do not use support requests for passwords or sensitive information.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="users" class="help-card">
+    <h2>16. Manage users, passwords, and security</h2>
+    <p>The Users / Logins tab is Admin-only. It controls user accounts, staff login, and local security options.</p>
+    <ol>
+      <li><b>Set staff login behavior.</b> Use the staff login toggle to require or remove staff login for the staff portal.</li>
+      <li><b>Choose no-login access.</b> When staff login is off, choose the default no-login permissions used by public staff portal visitors, then select <b>Save Staff Portal Access</b>.</li>
+      <li><b>Review security options.</b> Use security settings to limit login attempts and support/change request volume, then select <b>Save Security Options</b>.</li>
+      <li><b>Select a user.</b> Click a user to update display name, permissions, SOP assignment roles, active status, or password.</li>
+      <li><b>Generate or copy a password when needed.</b> Use <b>Generate Password</b> to create a temporary password and <b>Copy</b> to place it on the clipboard, then share it securely outside the portal.</li>
+      <li><b>Create new users carefully.</b> Choose permissions for portal access and SOP assignment roles for My SOPs filtering.</li>
+      <li><b>Save user changes with Update User.</b> The bottom <b>Save All Changes</b> button saves portal/SOP changes, not the selected user form.</li>
+    </ol>
+    <img src="/generated-help-screenshots/11-users-logins.png" alt="Users and logins security options">
+    <div class="callout warning"><b>Password note:</b> Password changes take effect immediately. Passwords are saved only with <b>Create User</b> or <b>Update User</b>. Do not send passwords through support requests.</div>
+    <div class="callout">
+      <b>Permissions:</b>
+      <ul class="feature-list">
+        <li><b>Admin:</b> full portal control.</li>
+        <li><b>Manager:</b> SOP management, sections, uploads, approvals, archived status, rollback, and change request review.</li>
+        <li><b>Editor:</b> draft, edit, duplicate, upload through draft workflow, and submit for review.</li>
+        <li><b>Staff:</b> approved SOPs, downloads, checklist runs, training, favorites, and change suggestions.</li>
+        <li><b>Viewer:</b> approved SOP access, read confirmations, checklist runs, and quizzes. Viewers cannot submit change requests.</li>
+      </ul>
+    </div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="brand" class="help-card">
+    <h2>18. Update brand and portal settings</h2>
+    <p>Brand / Settings is Admin-only. Use it to customize the portal for the customer or business.</p>
+    <ol>
+      <li><b>Update Portal Name.</b> This rebrands portal titles, the staff portal header label, the admin header, the login label, the help header, browser tabs, and support request subject defaults.</li>
+      <li><b>Update Company Name.</b> This feeds customer-only references, such as the default staff portal headline when no custom headline is entered.</li>
+      <li><b>Update Staff Portal Header Headline.</b> This controls the large descriptive text on the staff portal home area.</li>
+      <li><b>Edit Staff Portal Rules.</b> Enter one rule per line. Blank lines are ignored, and leaving the field empty hides the Staff rules box.</li>
+      <li><b>Set the portal port.</b> Change the local port number when creating a customer copy or avoiding a port conflict.</li>
+      <li><b>Set Mobile / QR Base URL.</b> Use the local network address phones can open, such as <b>http://192.168.1.25:8086</b>. QR codes and copied SOP links use this value when it is set.</li>
+      <li><b>Choose brand colors.</b> Set Primary, Accent, Dark, Light Background, and Active Section Highlight Color, then use color recovery buttons when needed.</li>
+      <li><b>Use color recovery.</b> <b>Revert to Last Color Scheme</b>, <b>Restore Default Colors</b>, and <b>Save Current Colors as Default</b> update the saved color set immediately.</li>
+      <li><b>Set defaults.</b> Choose the default SOP owner from the active Users / Logins list, then set the review cadence.</li>
+      <li><b>Upload or reset the logo.</b> Use a landscape logo when possible. The staff portal fits the logo inside the sidebar area without cropping.</li>
+      <li><b>Recapture Help Screenshots.</b> Use this after rebranding or major SOP setup so Help images match the current logo, colors, titles, sections, SOP examples, and admin fields.</li>
+      <li><b>Save the settings.</b> Select <b>Save All Changes</b>. If the port changed, restart the portal so the server listens on the new port.</li>
+    </ol>
+    <img src="/generated-help-screenshots/12-brand-settings.png" alt="Brand and settings screen">
+    <img src="/generated-help-screenshots/12-brand-settings-lower.png" alt="Brand settings lower fields logo upload and help screenshot recapture">
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="advanced" class="help-card">
+    <h2>20. Use Advanced checks carefully</h2>
+    <p>Advanced is Admin-only. It includes the JSON editor, smoke test, and start-over tools for controlled setup or recovery work.</p>
+    <ol>
+      <li><b>Use normal tabs first.</b> Routine changes should be done in SOP Editor, Sections, Users / Logins, Brand / Settings, or Backup / Restore.</li>
+      <li><b>Export before edits.</b> Create a <b>Complete Backup</b> or export JSON before manual JSON repair.</li>
+      <li><b>Edit JSON only for controlled repair.</b> Use the Advanced JSON editor only for directed technical work or carefully reviewed data correction.</li>
+      <li><b>Run Smoke Test.</b> Run <b>Smoke Test</b> after major changes, imports, restores, or manual JSON edits.</li>
+      <li><b>Review PASS/FAIL lines.</b> Check config, data, admin access, attachment protection, broken section assignments, missing attachments, and unresolved SOP references.</li>
+      <li><b>Clear sections only for start-over setup.</b> Use <b>Remove All Sections and SOPs</b> only when a customer wants a clean SOP library. The portal creates a full backup and rollback snapshot first, then requires typing <b>CLEAR</b>.</li>
+      <li><b>Choose whether to clear staff data.</b> Turn on <b>Also clear staff custom data</b> only when pinned SOPs, checklist runs, training results, generator history, and change requests should be cleared too.</li>
+      <li><b>Restore snapshots carefully.</b> Select an item in <b>All SOPs Version History / Rollback</b>, then use <b>Restore Snapshot</b> to replace the current sections and SOPs with that snapshot.</li>
+      <li><b>Create snapshots when needed.</b> <b>All SOPs Version History / Rollback</b> can create a whole-portal SOP snapshot before major setup or repair work.</li>
+    </ol>
+    <img src="/generated-help-screenshots/13-advanced-json.png" alt="Advanced screen with JSON editor and smoke test">
+    <img src="/generated-help-screenshots/13-advanced-reset-snapshot.png" alt="Advanced start over restore snapshot and all SOPs version history">
+    <div class="callout warning"><b>Advanced warning:</b> Clear, restore, and rollback actions are intentionally powerful. Confirm the customer wants the change, then verify the automatic backup appears in Backup / Restore before continuing with more setup work.</div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+
+  <section id="about" class="help-card">
+    <h2>21. About this software</h2>
+    <p>This SOP Portal was developed for practical, day-to-day operating procedure management: searchable staff SOPs, admin-controlled approvals, checklists, training records, change requests, local backups, and customer-specific branding in one local portal.</p>
+    <div class="callout">
+      <h3>Software Developed by:</h3>
+      <p><b>TechSavvy Consulting, LLC</b></p>
+      <p class="small"><a href="https://www.techsavvy.consulting" target="_blank" rel="noopener">https://www.techsavvy.consulting</a></p>
+      <p class="small"><a href="mailto:support@techsavvy.consulting">support@techsavvy.consulting</a></p>
+    </div>
+    <p class="help-back"><a href="#top">Back to top</a></p>
+  </section>
+</div>
+<script src="brand.js"></script>
+</body>
+</html>

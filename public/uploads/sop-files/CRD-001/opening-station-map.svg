@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" fill="#f4fbf8"/>
+  <rect x="34" y="36" width="568" height="292" rx="20" fill="#ffffff" stroke="#bfd8cf" stroke-width="4"/>
+  <path d="M92 108h150v74H92zM92 214h150v62H92zM300 108h92v168h-92zM450 108h86v64h-86zM450 208h86v68h-86z" fill="#d9efe7" stroke="#2f7d68" stroke-width="3"/>
+  <circle cx="515" cy="76" r="24" fill="#f0b84a"/>
+  <text x="70" y="70" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#12352f">Opening Station Map</text>
+  <text x="92" y="205" font-family="Arial, sans-serif" font-size="18" fill="#12352f">Front Desk</text>
+  <text x="300" y="298" font-family="Arial, sans-serif" font-size="18" fill="#12352f">Sterile Bay</text>
+  <text x="448" y="198" font-family="Arial, sans-serif" font-size="18" fill="#12352f">Lobby</text>
+</svg>

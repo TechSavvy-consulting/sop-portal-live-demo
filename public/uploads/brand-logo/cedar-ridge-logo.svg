@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="92" fill="#0f3d33"/>
+  <path d="M134 308c58-22 94-78 104-159 41 44 85 53 139 39-16 88-76 165-182 178-29 4-54-9-61-58z" fill="#8fd6bd"/>
+  <path d="M169 330c78-28 135-87 171-178" fill="none" stroke="#ffffff" stroke-width="24" stroke-linecap="round"/>
+  <text x="256" y="424" text-anchor="middle" font-family="Arial, sans-serif" font-size="78" font-weight="700" fill="#ffffff">CR</text>
+</svg>
